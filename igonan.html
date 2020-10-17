@@ -1,11 +1,15 @@
 <html>
     <head>
         <title>
-            
+            양선웅 ㅄ
         </title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel = "stylesheet" href = "web_design.css">
         <style>
+            #menu {
+                margin-bottom:700px;
+
+            }
             img#aa{
  
                 position: absolute;
@@ -18,12 +22,12 @@
  
             @keyframes bounceaa{
                 0%, 100%{
-                    bottom: 0px;
+                    top: 700px;
                     animation-timing-function: ease-out;
                 }
  
                 50%{
-                    bottom: 700px;
+                    top: 0px;
                     animation-timing-function: ease-in;
                 }
             }
@@ -39,13 +43,13 @@
  
             @keyframes bouncebb{
                 0%, 100%{
-                    bottom: 0px;
+                    top: 700px;
                     right: 500px;
                     animation-timing-function: ease-out;
                 }
  
                 50%{
-                    bottom: 700px;
+                    top: 0px;
                     right: 500px;
                     animation-timing-function: ease-in;
                 }
@@ -62,13 +66,13 @@
  
             @keyframes bouncecc{
                 0%, 100%{
-                    bottom: 0px;
+                    top: 700px;
                     left : 300px;
                     animation-timing-function: ease-out;
                 }
  
                 50%{
-                    bottom: 700px;
+                    top: 0px;
                     left: 300px;
                     animation-timing-function: ease-in;
                 }
@@ -85,13 +89,13 @@
  
             @keyframes bouncedd{
                 0%, 100%{
-                    bottom: 0px;
+                    top: 700px;
                     right: 100px;
                     animation-timing-function: ease-out;
                 }
  
                 50%{
-                    bottom: 700px;
+                    top: 0px;
                     right: 100px;
                     animation-timing-function: ease-in;
                 }
@@ -101,14 +105,17 @@
         </style>
     </head>
     <body>
-
-        <audio controls autoplay>
-           <source src="타지리.mp3" type="audio/mp3">
-        </audio>
-        <img src="사진3.jpg" width="10%" id="aa">
-        <img src="사진3.jpg" width="15%" id="bb">
-        <img src="사진3.jpg" width="8%" id="cc">
-        <img src="사진3.jpg" width="6%" id="dd">
+        <div id="info">
+            <div id="menu">
+                <audio controls autoplay>
+                <source src="타지리.mp3" type="audio/mp3">
+                </audio>
+                <img src="사진3.jpg" width="10%" id="aa">
+                <img src="사진3.jpg" width="15%" id="bb">
+                <img src="사진3.jpg" width="8%" id="cc">
+                <img src="사진3.jpg" width="6%" id="dd">
+            </div>
+            <div id="ing">
 <script>
 
                 /**
@@ -127,5 +134,7 @@
                 (d.head || d.body).appendChild(s);
                 })();
                 </script>
+                </div>
+        </div>
     </body>
 </html>
