@@ -1,9 +1,33 @@
 <html>
     <head>
         <title>
-            양선웅 ㅄ
+            죽어버리렴
         </title>
         <style>
+            
+            @keyframes jaehee {
+                    0% {
+                        left:100px;
+                    }
+                    100% {
+                        left:1500px;
+                    }
+                    }
+            #night_day{
+                position:absolute;
+                left:100px;
+                width:100px;
+                height:50px;
+                margin-left:-50px;
+                background-color:#000;
+                color:#fff;
+                animation-name: jaehee;
+                animation-duration:1s;
+                animation-duration: leaner;
+                animation-iteration-count:infinite;
+                animation-direction:alternate;
+                animation-fill-mode: forwards;
+                }
             #menu {
                 margin-bottom:700px;
 
@@ -21,11 +45,13 @@
             @keyframes bounceaa{
                 0%, 100%{
                     top: 700px;
+                    right: 200px;
                     animation-timing-function: ease-out;
                 }
  
                 50%{
                     top: 0px;
+                    right: 200px;
                     animation-timing-function: ease-in;
                 }
             }
@@ -105,13 +131,76 @@
     <body>
         <div id="info">
             <div id="menu">
+                <input id="night_day" type="button" value="딴 사진 보기(1)" onclick="
+                if(document.querySelector('#night_day').value === '딴 사진 보기(1)'){
+                  document.querySelector('#aa').src = '사진2.jpg';
+                  document.querySelector('#bb').src = '사진2.jpg';
+                  document.querySelector('#cc').src = '사진2.jpg';
+                  document.querySelector('#dd').src = '사진2.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(2)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(2)'){
+                  document.querySelector('#aa').src = '사진3.jpg';
+                  document.querySelector('#bb').src = '사진3.jpg';
+                  document.querySelector('#cc').src = '사진3.jpg';
+                  document.querySelector('#dd').src = '사진3.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(3)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(3)'){
+                  document.querySelector('#aa').src = '사진4.jpg';
+                  document.querySelector('#bb').src = '사진4.jpg';
+                  document.querySelector('#cc').src = '사진4.jpg';
+                  document.querySelector('#dd').src = '사진4jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(4)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(4)'){
+                  document.querySelector('#aa').src = '사진5.jpg';
+                  document.querySelector('#bb').src = '사진5.jpg';
+                  document.querySelector('#cc').src = '사진5.jpg';
+                  document.querySelector('#dd').src = '사진5.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(5)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(5)'){
+                  document.querySelector('#aa').src = '사진6.jpg';
+                  document.querySelector('#bb').src = '사진6.jpg';
+                  document.querySelector('#cc').src = '사진6.jpg';
+                  document.querySelector('#dd').src = '사진6.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(6)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(6)'){
+                  document.querySelector('#aa').src = '사진7.jpg';
+                  document.querySelector('#bb').src = '사진7.jpg';
+                  document.querySelector('#cc').src = '사진7.jpg';
+                  document.querySelector('#dd').src = '사진7.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(7)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(7)'){
+                  document.querySelector('#aa').src = '사진8.jpg';
+                  document.querySelector('#bb').src = '사진8.jpg';
+                  document.querySelector('#cc').src = '사진8.jpg';
+                  document.querySelector('#dd').src = '사진8.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(8)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(8)'){
+                  document.querySelector('#aa').src = '사진9.jpg';
+                  document.querySelector('#bb').src = '사진9.jpg';
+                  document.querySelector('#cc').src = '사진9.jpg';
+                  document.querySelector('#dd').src = '사진9.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(9)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(9)'){
+                  document.querySelector('#aa').src = '사진10.jpg';
+                  document.querySelector('#bb').src = '사진10.jpg';
+                  document.querySelector('#cc').src = '사진10.jpg';
+                  document.querySelector('#dd').src = '사진10.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(10)';
+                } else if(document.querySelector('#night_day').value === '딴 사진 보기(10)'){
+                  document.querySelector('#aa').src = '사진1.jpg';
+                  document.querySelector('#bb').src = '사진1.jpg';
+                  document.querySelector('#cc').src = '사진1.jpg';
+                  document.querySelector('#dd').src = '사진1.jpg';
+                  document.querySelector('#night_day').value = '딴 사진 보기(1)';
+                } 
+                ">
                 <audio controls autoplay>
                 <source src="타지리.mp3" type="audio/mp3">
                 </audio>
-                <img src="사진3.jpg" width="10%" id="aa">
-                <img src="사진3.jpg" width="15%" id="bb">
-                <img src="사진3.jpg" width="8%" id="cc">
-                <img src="사진3.jpg" width="6%" id="dd">
+                <img src="사진1.jpg" width="10%" id="aa">
+                <img src="사진1.jpg" width="15%" id="bb">
+                <img src="사진1.jpg" width="8%" id="cc">
+                <img src="사진1.jpg" width="6%" id="dd">
             </div>
             <div id="ing">
 <script>
